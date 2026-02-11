@@ -1,157 +1,47 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<title>جدول الدراسة</title>
-
-<style>
-body{
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    direction: rtl;
-    background: linear-gradient(135deg,#eef2f7,#d9e4f5);
-    padding: 20px;
-}
-
-h1{
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 20px;
-}
-
-table{
-    width: 100%;
-    border-collapse: collapse;
-    background: #ffffff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-th, td{
-    border: 1px solid #e0e6ed;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-}
-
-th{
-    background: #4a6cf7;
-    color: white;
-    font-weight: bold;
-}
-
-.time{
-    background: #f1f5ff;
-    font-weight: bold;
-    color: #34495e;
-}
-
-.course{
-    background: #ecf0ff;
-}
-
-.free{
-    background: #f9fafc;
-    color: #aaa;
-}
-
-.tp{
-    background: #e8fff3;
-    color: #0b6b3a;
-    font-weight: 600;
-}
-
-.td{
-    background: #fff4e6;
-    color: #9c5a00;
-    font-weight: 600;
-}
-
-button{
-    display: block;
-    margin: 30px auto 0;
-    padding: 14px 28px;
-    font-size: 18px;
-    border: none;
-    border-radius: 30px;
-    background: linear-gradient(135deg,#4a6cf7,#6a8cff);
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-button:hover{
-    transform: scale(1.05);
-}
-</style>
-</head>
-
-<body>
-
-<h1>📚 جدول الدراسة الأسبوعي</h1>
-
-<table>
-<tr>
-    <th>الوقت</th>
-    <th>الاثنين</th>
-    <th>الثلاثاء</th>
-    <th>الأربعاء</th>
-    <th>الخميس</th>
-</tr>
-
 <tr>
     <td class="time">08:00 - 09:30</td>
-    <td class="course">كتروتيكنيك</td>
-    <td class="course">توري دي سينيال</td>
-    <td class="tp">TP مسيري الكتريك</td>
-    <td class="td">TD توري دي سينيال</td>
+    <td class="course">Électrotechnique (Cours)</td>
+    <td class="course">Théorie du Signal (Cours)</td>
+    <td class="tp">Machines Électriques (TP)</td>
+    <td class="td">Théorie du Signal (TD)</td>
 </tr>
 
 <tr>
     <td class="time">09:30 - 11:00</td>
-    <td class="course">كتروتيكنيك</td>
-    <td class="course">لوجيك كومبيناتوار</td>
-    <td class="td">TD كتروتيكنيك</td>
-    <td class="td">TD ميتود نيميريك</td>
+    <td class="course">Électrotechnique (Cours)</td>
+    <td class="course">Logique Combinatoire (Cours)</td>
+    <td class="td">Électrotechnique (TD)</td>
+    <td class="td">Méthodes Numériques (TD)</td>
 </tr>
 
 <tr>
     <td class="time">11:00 - 12:30</td>
-    <td class="free">فراغ</td>
-    <td class="tp">TP ميتود نيميريك</td>
-    <td class="tp">TP (فوجين)</td>
-    <td class="td">TD لوجيك كومبيناتوار</td>
+    <td class="free">Libre</td>
+    <td class="tp">Méthodes Numériques (TP)</td>
+    <td class="tp">TP (2 Groupes)</td>
+    <td class="td">Logique Combinatoire (TD)</td>
 </tr>
 
 <tr>
     <td class="time">12:30 - 14:00</td>
-    <td class="course">ميتود نيميريك</td>
-    <td class="free">فراغ</td>
-    <td class="free">فراغ</td>
-    <td class="free">فراغ</td>
+    <td class="course">Méthodes Numériques (Cours)</td>
+    <td class="free">Libre</td>
+    <td class="free">Libre</td>
+    <td class="free">Libre</td>
 </tr>
 
 <tr>
     <td class="time">14:00 - 15:30</td>
-    <td class="course">سيركوي الكتريك</td>
-    <td class="course">مسيري الكتريك</td>
-    <td class="free">فراغ</td>
-    <td class="course">بروديكسيون دا لينغجي</td>
+    <td class="course">Circuits Électriques (Cours)</td>
+    <td class="course">Machines Électriques (Cours)</td>
+    <td class="free">Libre</td>
+    <td class="course">Production d’Énergie (Cours)</td>
 </tr>
 
 <tr>
     <td class="time">15:30 - 17:00</td>
-    <td class="course">تيكنيك إكسبيرينوس</td>
-    <td class="free">فراغ</td>
-    <td class="free">فراغ</td>
+    <td class="course">Techniques Expérimentales (Cours)</td>
+    <td class="free">Libre</td>
+    <td class="free">Libre</td>
     <td class="free">—</td>
 </tr>
-
-</table>
-
-<button onclick="window.location.href='surprise.html'">
-اضغط هنا لتظهر مفاجأة 🎁
-</button>
-
-</body>
-</html>
